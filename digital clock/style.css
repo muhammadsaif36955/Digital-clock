@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/download.jpg");
+  }
+  
+  .datetime{
+    color: red;
+    background-color: white;
+    font-family: "Segoe UI", sans-serif;
+    width: 340px;
+    padding: 15px 10px;
+    border-bottom: 20px solid gray;
+    border-top: 5px solid gray;
+    border-left: 5px solid gray;
+    border-right: 5px solid gray;
+    border-radius: 10px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, white);
+    transition: 0.5s;
+    transition-property: background-color, box-shadow;
+  }
+  .datetime h1{
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      
+  }
+  
+  .datetime:hover{
+    background: black;
+    box-shadow: 0 0 50px black;
+    
+  }
+  
+  .date{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  .time{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time span:not(:last-child){
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+    
+  }
+  
+  .time span:last-child{
+    background: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 5px;
+    
+  }
+  
